@@ -67,22 +67,7 @@ Geleneksel POS sistemlerinin karmaşık arayüzleri ve iletişim gecikmeleri gib
 
 ---
 
-## 📂 Dizin Yapısı (Folder Structure)
 
-```text
-NexPOS/
-├── main.py              # Uygulamanın başlatıcı ana dosyası
-├── database.py          # SQLite veritabanı işlemleri ve tabloların oluşturulması
-├── login_screen.py      # Kullanıcı doğrulama ve giriş arayüzü
-├── admin_panel.py       # Yönetici Dashboard, Ürün ve Finans yönetimi
-├── user_panel.py        # Garson Paneli (Masalar, sipariş alma)
-├── widgets.py           # Özelleştirilmiş UI bileşenleri (TableCard, Toast Notification vb.)
-├── styles.py            # Uygulamanın merkezi renk ve stil tanımlamaları
-├── config.json          # Persistent (Kalıcı) uygulama ayarları
-├── nexpos.db            # Yerel veritabanı dosyası (Otomatik oluşur)
-├── Sunum/               # Proje HTML sunum dosyaları
-└── Makale/              # Proje akademik rapor ve belgeleri
-```
 
 ---
 
