@@ -12,7 +12,6 @@
 <br/>
 
 <!-- KAPAK FOTOĞRAFI: Projenizin genel bir ekran görüntüsünü (örn: giriş ekranı veya genel bakış) projenizin içine 'assets' klasörü açıp oraya yükleyin. Sonra aşağıdaki linki güncelleyin -->
-<img src="assets/kapak_fotografi.png" alt="NexPOS Kapak" width="800"/>
 
 </div>
 
