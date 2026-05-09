@@ -44,17 +44,7 @@ Geleneksel POS sistemlerinin karmaşık arayüzleri ve iletişim gecikmeleri gib
 
 ---
 
-## 📸 Ekran Görüntüleri
 
-<!-- EKRAN GÖRÜNTÜLERİ: Ekran görüntülerinizi 'assets' klasörüne atıp aşağıdaki linkleri isimleriyle değiştirin -->
-
-| Garson Paneli | Yönetici Dashboard |
-|:---:|:---:|
-| <img src="assets/garson_paneli.png" width="400"/> | <img src="assets/admin_dashboard.png" width="400"/> |
-
-| Dinamik Masa Yönetimi | Modern Bildirimler (Toast) |
-|:---:|:---:|
-| <img src="assets/masalar.png" width="400"/> | <img src="assets/toast.png" width="400"/> |
 
 ---
 
