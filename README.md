@@ -91,8 +91,8 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları i
 
 ## 🤝 Proje Ekibi
 
-- **Ali [Soyadınız]** - *Geliştirici* - [GitHub Profili](https://github.com/KULLANICI_ADINIZ)
-- **[Ekip Arkadaşınızın Adı]** - *Katkıda Bulunan* - [GitHub Profili](https://github.com/ARKADAS_GITHUB)
+- Ali Güngör - 23010708021
+- Emirhan Yusuf Arslan - 22640708002
 
 ---
 <div align="center">
