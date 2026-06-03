@@ -80,10 +80,7 @@ nexpos/
 ├── styles.py          # Merkezi renk paleti, font ve QSS stil tanımları
 ├── requirements.txt   # Bağımlılık listesi
 ├── nexpos.db          # SQLite veritabanı — demo verilerle birlikte
-├── Brew_Flow_NexPOS_Uygulama_Kullanim_Kilavuzu.docx   # Kullanım kılavuzu
-└── NexPOS_EXE/        # Windows için derlenmiş hazır uygulama
-    ├── NexPOS.exe     # Çalıştırılabilir uygulama (Python gerektirmez)
-    └── nexpos.db      # Uygulamayla birlikte gelen veritabanı
+└── Brew_Flow_NexPOS_Uygulama_Kullanim_Kilavuzu.docx   # Kullanım kılavuzu
 ```
 
 > `nexpos.db` repoda demo verilerle hazır gelir. Silinirse, uygulama ilk çalıştırmada veritabanını ve demo verileri otomatik olarak yeniden oluşturur.
@@ -96,9 +93,11 @@ Uygulamayı iki şekilde çalıştırabilirsiniz.
 
 ### Seçenek 1 — Hazır uygulama (Windows .exe)
 
-Python kurulumu **gerektirmez**. `NexPOS_EXE` klasöründeki **NexPOS.exe** dosyasına çift tıklayın.
+Python kurulumu **gerektirmez**. Derlenmiş `.exe` dosyası boyutu nedeniyle GitHub'a yüklenememiştir; aşağıdaki bağlantıdan indirebilirsiniz:
 
-Uygulama, yanındaki `nexpos.db` veritabanıyla birlikte gelir; bu nedenle mevcut veriler korunur. Veritabanı dosyası silinse veya bulunamasa bile, uygulama ilk açılışta veritabanını ve demo verileri otomatik olarak oluşturur.
+**İndirme bağlantısı:** [NexPOS.exe (OneDrive)](https://ogrencibartinedu-my.sharepoint.com/:f:/g/personal/23010708021_ogrenci_bartin_edu_tr/IgAKcNJudmblRr6V15mGF9mPAeqAXTiwDJrx3Gekjient5U?e=XZ0yuz)
+
+İndirdikten sonra dosyaya çift tıklayarak çalıştırın. Uygulama, içindeki `nexpos.db` veritabanıyla birlikte gelir; bu nedenle mevcut veriler korunur. Veritabanı dosyası silinse veya bulunamasa bile, uygulama ilk açılışta veritabanını ve demo verileri otomatik olarak oluşturur.
 
 ### Seçenek 2 — Kaynaktan çalıştırma (Python)
 
