@@ -325,7 +325,23 @@ def main():
     from PySide6.QtCore import qInstallMessageHandler
     qInstallMessageHandler(qt_message_handler)
     app = QApplication(sys.argv)
-    app.setFont(QFont(FONTS['family'], FONTS['size_md']))
+    app.setStyle("Fusion")  # tüm makinelerde aynı taban stil
+
+    # Windows koyu temada bile açık paleti zorla — yazılar her zaman siyah kalır
+    from PySide6.QtGui import QPalette, QColor
+    palette = QPalette()
+    palette.setColor(QPalette.ColorRole.Window, QColor("#F1F5F9"))
+    palette.setColor(QPalette.ColorRole.WindowText, QColor("#0F172A"))
+    palette.setColor(QPalette.ColorRole.Base, QColor("#FFFFFF"))
+    palette.setColor(QPalette.ColorRole.AlternateBase, QColor("#F8FAFC"))
+    palette.setColor(QPalette.ColorRole.Text, QColor("#0F172A"))
+    palette.setColor(QPalette.ColorRole.Button, QColor("#FFFFFF"))
+    palette.setColor(QPalette.ColorRole.ButtonText, QColor("#0F172A"))
+    palette.setColor(QPalette.ColorRole.ToolTipBase, QColor("#FFFFFF"))
+    palette.setColor(QPalette.ColorRole.ToolTipText, QColor("#0F172A"))
+    palette.setColor(QPalette.ColorRole.PlaceholderText, QColor("#94A3B8"))
+    app.setPalette(palette)
+
     app.setStyleSheet(get_global_stylesheet())
     window = MainWindow()
     window.show()
